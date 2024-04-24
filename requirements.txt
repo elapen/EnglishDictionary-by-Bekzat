@@ -1,0 +1,4 @@
+pyTelegramBotAPI
+pymongo
+flask
+gunicorn

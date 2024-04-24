@@ -1,0 +1,2 @@
+sudo docker build -t englishbot:v1 .
+sudo docker run -d -v /etc/localtime:/etc/localtime:ro --name englishbot --restart=always -p 8021:5000 englishbot:v1
